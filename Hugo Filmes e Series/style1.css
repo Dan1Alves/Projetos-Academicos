@@ -1,0 +1,261 @@
+
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+
+header{
+
+height: 90px;
+background: linear-gradient(72deg, rgb(66, 109, 182) , rgb(32, 5, 236)  );
+width: 98.7vw;
+margin: 0%   ;
+   padding: 0%;
+   text-align: left;
+}
+
+
+
+#menu li a {
+
+    font-family: DynaPuff;
+    margin: 5px;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+   border: 2px solid white;
+   border-radius: 4px;
+
+}
+
+li{
+    display: inline;
+}
+
+#menu li a:hover{
+    color: brown;
+   
+}
+
+.menu{
+
+margin-top: -25px;
+margin-left: 60%;
+
+}
+
+
+
+body{
+
+    background: linear-gradient(72deg, rgb(107, 104, 104), rgb(39, 145, 183) );
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 98vw;
+}
+
+
+
+
+
+
+h1{
+font-family:  Silkscreen ;
+
+}
+
+
+.content{
+height: 520px;
+width: 935px;
+border-radius: 20px;
+overflow: hidden;
+position: absolute;
+top: 47%;
+left: 28%;
+transform: translate(-20%, -30%);
+}
+
+
+
+.navegation{
+position: absolute;
+bottom: 20px;
+left: 42%;
+transform: translate(-20%);
+display: flex;
+}
+
+.bar{
+width: 70px;
+height: 17px;
+border: 2px solid white;
+margin: 7px;
+border-radius: 6px;
+cursor: pointer;
+transition: .6s;
+}
+
+.bar:hover{
+    background-color: rgb(107, 104, 104);
+}
+
+input{
+    display: none;
+
+}
+
+.slides{
+    display: flex;
+width: 500%;
+height: 100%;
+}
+
+.slide{
+width: 20%;
+transition: .6s;
+
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#slide1:checked~.s1 {
+margin-left: 0;
+
+}
+
+#slide2:checked~.s1 {
+margin-left: -20%;
+
+}
+
+#slide3:checked~.s1 {
+margin-left: -40%;
+
+}
+
+
+
+.filme1  img {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(72deg, rgb(107, 104, 104) 1%, black 99% );
+    border: 5px solid dodgerblue;
+   border-radius: 4px;
+   margin-top: 45%;
+   margin-left: 40px;
+   position: relative;
+   top: 35px;
+   
+}
+
+
+
+
+
+.filme2 img {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(72deg, rgb(107, 104, 104) 1%, black 99% );
+    border: 5px solid dodgerblue;
+   border-radius: 4px;
+   margin-top: -310px;
+   margin-left: 500px;
+   position: relative;
+   top: 15px;
+   
+}
+
+
+
+.filme3 img  {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(72deg, rgb(107, 104, 104) 1%, black 99% );
+    border: 5px solid dodgerblue;
+   border-radius: 4px;
+   margin-top: -310px;
+   margin-left: 950px;
+ 
+   
+}
+.filme4 img  {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(72deg, rgb(107, 104, 104) 1%, black 99% );
+    border: 5px solid dodgerblue;
+   border-radius: 4px;
+   margin-top: 10%;
+   margin-left: 40px;
+   position: relative;
+   top: 38px;
+   
+   
+}
+.filme5 img  {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(72deg, rgb(107, 104, 104) 1%, black 99% );
+    border: 5px solid dodgerblue;
+   border-radius: 4px;
+   margin-top: -25%;
+   margin-left: 500px;
+   position: relative;
+   top: 19px;
+   
+}
+.filme6 img {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(72deg, rgb(107, 104, 104) 1%, black 99% );
+    border: 5px solid dodgerblue;
+   border-radius: 4px;
+   margin-top: -40%;
+   margin-left: 960px;
+
+   
+}
+
+#insta{
+    width: 20px;
+    
+}
+
+#whats{
+    width: 20px;
+    
+
+}
+
+.table1{
+margin-left: 31%;
+
+
+}
+#cnt1{
+    margin-left: 16%;
+    
+
+}
+#table1{
+    background: linear-gradient(72deg, rgb(66, 109, 182) , rgb(32, 5, 236)  );
+    height: 90px;
+width: 98.7vw;
+}
+#h1series{
+margin-top: 15%;
+            margin-left: 15%;
+}
+
+.divserie{
+
+    margin-top: 16.9%;
+}
+
