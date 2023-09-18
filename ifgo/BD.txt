@@ -1,0 +1,8 @@
+create table usuario (
+matricula varchar (14) PRIMARY KEY,
+telefone varchar (30),
+email varchar (6o),
+senha varchar (30) not null
+
+
+);

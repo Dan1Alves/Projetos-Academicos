@@ -1,0 +1,45 @@
+body{
+    background-color: #9c9dac;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+th{
+    background-color: green;
+    color: white;
+}
+
+#h1p{
+    text-align: center;
+    color: green;
+   font-weight: bold;
+}
+
+
+
+#mat1{
+    text-align: center;
+}
+
+#accordion h3{
+    background-color: #9c9dac;
+    border: none;
+    font-weight: bold;
+    color: black;
+  
+}
+
+#accordion div {
+    background-color: #9c9dac;
+    border: none;
+    font-weight: bold;
+  
+}
+
